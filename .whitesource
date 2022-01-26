@@ -13,10 +13,6 @@
     "minSeverityLevel": "LOW"
   },
   "remediateSettings": {
-    "workflowRules": {
-      "enabled": true,
-      "minVulnerabilitySeverity": "LOW"
-    },
     "extends": ["github>whitesource/log4j-remediations", ":prHourlyLimitNone" ]
   }
 }

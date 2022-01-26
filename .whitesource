@@ -13,6 +13,7 @@
     "minSeverityLevel": "LOW"
   },
   "remediateSettings": {
+    "enableRenovate": true,
     "extends": ["github>whitesource/log4j-remediations", ":prHourlyLimitNone" ]
   }
 }
